@@ -1,5 +1,4 @@
---- Global & Page Layout ---
-body {
+--- Global & Page Layout --- body {
     margin: 0;
     font-family: 'Inter', sans-serif;
     background-color: #f0f2f5;
@@ -8,6 +7,7 @@ body {
 
 .page-container {
     padding: 24px;
+    font-family: 'Inter', sans-serif;
 }
 
 .page-header {
@@ -53,6 +53,7 @@ body {
     border: 1px solid #d9d9d9;
     padding: 24px;
     border-radius: 4px;
+    font-family: 'Inter', sans-serif;
 }
 
 /* --- Section Styles --- */
@@ -91,6 +92,7 @@ h2 {
     border-collapse: collapse;
     margin-bottom: 24px;
     border: 0.5px solid #b7b7b7;
+    font-family: 'Inter', sans-serif;
 }
 
 .deposit-table th,
@@ -122,7 +124,7 @@ h2 {
 .deposit-table input[type="text"] {
     width: 94%;
     padding: 5px;
-   border: 0.5px solid #b7b7b7;
+    border: 0.5px solid #b7b7b7;
     background-color: #f4f4f6;
     text-align: right;
     font-size: 14px;
@@ -143,14 +145,14 @@ h2 {
 
 .total-label {
     text-align: left !important;
-     border: 0.5px solid #b7b7b7;
+    border: 0.5px solid #b7b7b7;
     padding-right: 16px !important;
 }
 
 .total-amount-value,
 .total-words-value {
     text-align: left !important;
-     border: 0.5px solid #b7b7b7;
+    border: 0.5px solid #b7b7b7;
 }
 
 /* --- Payment Modes --- */
@@ -158,6 +160,7 @@ h2 {
     height: 170px;
     width: 315px;
     padding: 12px 12px;
+    font-family: 'Inter', sans-serif;
 }
 
 .payment-modes-section h2 {
@@ -212,4 +215,5 @@ h2 {
     padding: 10px;
     gap: 10px;
     font-weight: 400;
+    font-family: 'Inter', sans-serif;
 }
