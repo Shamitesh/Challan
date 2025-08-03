@@ -1,4 +1,3 @@
-// src/components/PaymentModes.js
 
 import React from 'react';
 import PaymentModeButton from './PaymentModeButton';
